@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa11ec82e9746928e211e7f096812ca, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  gameAnalyticsIosGameKey: ee8ca1c8a2659eefb2279545259ca332
+  gameAnalyticsIosSecretKey: 1651e32e7391d8506c74460f4f8fa0e3e87cb98d
+  gameAnalyticsAndroidGameKey: 
+  gameAnalyticsAndroidSecretKey: 
+  facebookAppId: 1085194919421638
+  facebookClientToken: 050cc0815fac95a88456f5cbcb572393
+  adjustIOSToken: prb9aw5tu7sw
+  adjustAndroidToken: 050cc0815fac95a88456f5cbcb572393
+  EditorIdfa: 9bea4afa-62bd-4ed2-a800-01c514a94730
+  UseRemoteConfig: 0
+  UseVoodooAnalytics: 1
+  companyName: 8Great Games, LLC
+  privacyPolicyURL: https://www.8great.games/privacy-policy
+  developerContactEmail: admin@8great.games

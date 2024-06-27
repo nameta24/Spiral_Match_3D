@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1384633641988006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4464613669252742}
+  - component: {fileID: 114344982431172690}
+  - component: {fileID: 5420363023482674175}
+  - component: {fileID: 2752742353923712083}
+  m_Layer: 0
+  m_Name: TinySauce
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4464613669252742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384633641988006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114344982431172690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384633641988006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b987dcd822b244d4a8f2a330a0210de2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  privacyManager: {fileID: 0}
+  privacyScreenPrefab: {fileID: 240683512839896542, guid: 5c3aea0870b0446e397190811777ae92,
+    type: 3}
+  privacyPartnersScreenPrefab: {fileID: 6001545179362404033, guid: fa3f28ad6bd744568bcfca647e13968e,
+    type: 3}
+--- !u!114 &5420363023482674175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384633641988006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40dd6e098def94adfa29ff3e9c0b30ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tsDebugUIPrefab: {fileID: 5549150780640145141, guid: ef7fb689f1ca94381904713abd1ee14a,
+    type: 3}
+--- !u!114 &2752742353923712083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1384633641988006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab86364dad30347fca0be7da5a19b50a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  privacyScreenPrefab: {fileID: 240683512839896542, guid: 4bca3304210da4f919666f1d8834b1b3,
+    type: 3}
+  privacyPartnersScreenPrefab: {fileID: 6001545179362404033, guid: fa3f28ad6bd744568bcfca647e13968e,
+    type: 3}
